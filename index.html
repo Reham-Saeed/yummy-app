@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Home</title>
+ <link rel="stylesheet" href="./css/all.min.css">
+ <link rel="stylesheet" href="./css/bootstrap.min.css">
+ <link rel="stylesheet" href="./css/styls.css">
+</head>
+<body class="bg-black text-white">
+  <section>
+  <div class="container">
+    <div class="container px-5" id="search-content">
+    
+    </div>
+    <div id="males" class="row py-5 g-4">
+        <!-- loading -->
+        <div class="vh-100 w-100 d-flex justify-content-center align-items-center">
+          <span class="loader"></span>
+        </div>
+    </div>
+  </div>
+  </section>
+   <!-- navbar -->
+   <nav class="vh-100 position-fixed d-flex top-0">
+      <div id="nav-content" class="d-none d-flex flex-column justify-content-between p-4 bg-black">
+          <div class="nav-links">
+              <ul class="list-unstyled d-flex flex-column gap-3">
+                  <li id="Search" class="cursor-pointer">Search</li>
+                  <li id="Categories" class="cursor-pointer">Categories</li>
+                  <li id="Area" class="cursor-pointer">Area</li>
+                  <li id="Ingredients" class="cursor-pointer">Ingredients</li>
+                  <li id="ContactUs" class="cursor-pointer">Contact Us</li>
+              </ul>
+          </div>
+          <div class="nav-footer">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+            <p>Copyright Â© 2019 All Rights<br>Reserved.</p> 
+          </div>
+      </div>
+      <div id="nav-side" class="bg-white text-black d-flex flex-column justify-content-between text-center px-2 py-4 ">
+         <img src="./images/logo (1).png" alt="logo">
+         <i id="btn-nav" class="fa-solid fa-align-justify fa-2x cursor-pointer"></i>
+         <div>
+            <i class="fa-solid fa-globe d-block"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+         </div>
+      </div>
+   </nav>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js" ></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
